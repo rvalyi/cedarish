@@ -59,11 +59,11 @@ apt-get install -y --force-yes \
     #
 
 # locales
-apt-cache search language-pack \
-    | cut -d ' ' -f 1 \
-    | grep -v '^language\-pack\-\(gnome\|kde\)\-' \
-    | grep -v '\-base$' \
-    | xargs apt-get install -y --force-yes --no-install-recommends
+#apt-cache search language-pack \
+#    | cut -d ' ' -f 1 \
+#    | grep -v '^language\-pack\-\(gnome\|kde\)\-' \
+#    | grep -v '\-base$' \
+#    | xargs apt-get install -y --force-yes --no-install-recommends
 
 cd /
 rm -rf /var/cache/apt/archives/*.deb

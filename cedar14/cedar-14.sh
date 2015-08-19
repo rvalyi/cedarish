@@ -45,7 +45,7 @@ apt-get install -y --force-yes \
     openjdk-7-jre-headless \
     openssh-client \
     openssh-server \
-    postgresql-server-dev-9.3 \
+    postgresql-server-dev-9.1 \
     python \
     python-dev \
     ruby \

@@ -5,10 +5,10 @@ set -e
 set -x
 
 cat > /etc/apt/sources.list <<EOF
-deb http://archive.ubuntu.com/ubuntu quantal main
-deb http://archive.ubuntu.com/ubuntu quantal-security main
-deb http://archive.ubuntu.com/ubuntu quantal-updates main
-deb http://archive.ubuntu.com/ubuntu quantal universe
+deb http://archive.ubuntu.com/ubuntu precise main
+deb http://archive.ubuntu.com/ubuntu precise-security main
+deb http://archive.ubuntu.com/ubuntu precise-updates main
+deb http://archive.ubuntu.com/ubuntu precise universe
 EOF
 
 apt-get update
